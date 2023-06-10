@@ -1,0 +1,68 @@
+{% extends 'base.html'%}
+{% block active %}
+				<li class=""><a href="{% url 'index' %}">Home</a></li>
+				<li class=""><a href="{% url 'about' %}">About Us</a></li>
+				<li class=""><a href="{% url 'services' %}">Services</a></li>
+				<li class=""><a href="{% url 'packages' %}">Packages</a></li>
+				<li class=""><a href="{% url 'contact' %}">Contact</a></li>
+				<li class="booking"><a href="booking.html">Book Now</a></li>
+{% endblock %}
+
+{% block content %}
+
+<!-- Booking -->
+<section class="contact py-5">
+	<div class="container py-lg-5 py-sm-4">
+		<h2 class="heading text-capitalize text-center mb-lg-5 mb-4"> Book Your Tour</h2>
+		<div class="contact-grids">
+			<div class="row">
+				<div class="col-lg-7 contact-left-form">
+					<form method="post" class="row">
+						{% csrf_token %}
+						<div class="col-sm-6 form-group contact-forms">
+						 <!-- <input type="text" class="form-control" placeholder="Name" required="">-->
+						 {{form.booking_name}}
+						</div>
+						<div class="col-sm-6 form-group contact-forms">
+						  <!--<input type="email" class="form-control" placeholder="Email" required="">-->
+						  {{form.booking_email}}
+						</div>
+						<div class="col-sm-6 form-group contact-forms">
+						  <!--<input type="text" class="form-control" placeholder="Phone" required="">-->
+						  {{form.booking_contact}} 
+						</div>
+						<div class="col-sm-6 form-group contact-forms">
+						  <!--<input type="text" class="form-control" placeholder="Date" required="">-->
+						  {{form.booking_date}} 
+						</div>
+						<div class="col-sm-6 form-group contact-forms">
+							
+							{{form.booking_adults}}
+						</div>
+						<div class="col-sm-6 form-group contact-forms">
+							{{form.booking_kids}}
+						</div>
+						<div class="col-md-12 form-group contact-forms">
+						 <!-- <textarea class="form-control" placeholder="Message" rows="3" required=""></textarea>-->
+						 {{form.booking_message}}
+						</div>
+						<div class="col-md-12 booking-button">
+							<button type="submit" class="btn btn-block sent-butnn">Book Now</button>
+						</div>
+					</form>
+				</div>
+				<div class="col-lg-5 contact-right pl-lg-5">
+					<div class="image-tour position-relative">
+						<img src="{{booking_tour_id.tour_image.url}}" alt="" class="img-fluid" width="1000" height="900" />
+						<p><span class="fa fa-tags"></span> <span>{{booking_tour_id.tour_price}}</span></p>
+					</div>
+					
+					<h4>{{booking_tour_id.tour_name}}</h4>
+					<p class="mt-3">{{booking_tour_id.tour_description}}</p>	
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- //Booking -->
+{% endblock %}

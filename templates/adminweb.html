@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	{% load static %}
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>User Account</title>
+	<style type="text/css">
+		body{
+			background-image: url("{% static 'background.jpg' %}");
+			color: white;
+		}
+		textarea{
+			width: 200px;
+			height: 30px;
+		}
+
+		header{
+			align-items: left;
+			margin-top: 3em;
+			margin-left: 4em;
+			margin-bottom: 0.5em;
+			font-size: 50px;
+		}
+
+		section{
+			font-size: 26px;
+			}
+		label{
+			opacity: 0.7;
+			width: 150px; 
+			margin-right: 15px;
+
+		}
+
+		input{
+			margin-left: 5px;
+			width: 200px;
+			height: 30px;
+			background-color:#424257;
+			color: white;
+			font-size: 20px;
+			border-color: #424257;
+
+		}
+
+		div.One{
+			display: grid;
+			margin-left: 6em;
+		}
+
+		div.Two{
+			display: flex;
+			padding: 10px;
+		}
+
+		button{
+			width: 100px;
+			height: 30px;
+			color: white;
+			background-color: #424257;
+			border-radius: 20px;
+			border: none;
+			font-size: 17px;
+			padding: 5px;
+			margin-left: 16em;
+			margin-top: 1.4em;
+
+		}		
+	</style>
+</head>
+<body>
+ <div style="background-image: "> 
+<header id="header" class="">
+User Account	
+</header><!-- /header -->	
+
+<section>
+	<form method="post" accept-charset="utf-8" >{% csrf_token %}
+	<div class="One">
+		<div class="Two">
+			<label>Firstname :</label>{{form.user_first_name}}	
+		</div>
+		<div class="Two">
+			<label>Lastname :</label>{{form.user_last_name}}
+		</div>
+	</div>
+    <div class="One">
+		<div class="Two">
+			<label>Email :</label>{{form.user_email}}	
+		</div>
+		<div class="Two">
+			<label>Contact :</label>{{form.user_contact}}
+		</div>
+	</div>    
+	<div class="One">
+		<div class="Two">
+			<label>Username :</label>{{form.user_username}}	
+		</div>
+		<div class="Two">
+			<label>Password :</label>{{form.user_password}}
+		</div>
+	</div>
+	<button type="submit">Submit</button>
+</form>
+</section>
+</body>
+</html>
