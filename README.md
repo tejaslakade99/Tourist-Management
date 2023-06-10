@@ -38,10 +38,10 @@ If you are interested in learning more about this project, please visit the GitH
 ![index](https://github.com/tejaslakade99/Tourist-Management/assets/69455769/7c1a5ba4-c723-4480-8b89-b9a42d5143eb)
 
 #### Tours Packages
-![Tours](https://github.com/tejaslakade99/Tourist-Management/assets/69455769/da3fd6fd-963e-4bbe-8a4d-03d3ed092f52)
+![Tours](https://github.com/tejaslakade99/Tourist-Management/assets/69455769/61936ff1-b913-426d-9f89-3a1f70b83ed3)
 
 #### Destination Packages
-![destinations](https://github.com/tejaslakade99/Tourist-Management/assets/69455769/2aaaa749-8022-4592-9c67-044d8b8df637)
+![destinations](https://github.com/tejaslakade99/Tourist-Management/assets/69455769/ab6c62f3-1e3b-4b05-931e-5508ebe6889f)
 
 #### Booking Packages
 ![booking](https://github.com/tejaslakade99/Tourist-Management/assets/69455769/916d4e87-9ba6-4fac-ba0d-aa3826b82dc3)
