@@ -35,7 +35,7 @@ If you are interested in learning more about this project, please visit the GitH
 
 ### Screenshots
 #### Index Page
-![index](https://github.com/tejaslakade99/Tourist-Management/assets/69455769/b77fb60a-efa7-4b5e-92e0-96842d6cf17a)
+![index](https://github.com/tejaslakade99/Tourist-Management/assets/69455769/7c1a5ba4-c723-4480-8b89-b9a42d5143eb)
 
 #### Tours Packages
 ![Tours](https://github.com/tejaslakade99/Tourist-Management/assets/69455769/da3fd6fd-963e-4bbe-8a4d-03d3ed092f52)
