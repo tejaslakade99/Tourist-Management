@@ -44,7 +44,7 @@ If you are interested in learning more about this project, please visit the GitH
 ![destinations](https://github.com/tejaslakade99/Tourist-Management/assets/69455769/ab6c62f3-1e3b-4b05-931e-5508ebe6889f)
 
 #### Booking Packages
-![booking](https://github.com/tejaslakade99/Tourist-Management/assets/69455769/916d4e87-9ba6-4fac-ba0d-aa3826b82dc3)
+![booking](https://github.com/tejaslakade99/Tourist-Management/assets/69455769/6f74e518-5d2c-4c1e-9a3f-87e86cb51c7a)
 
 #### Contact Us
-![contactus](https://github.com/tejaslakade99/Tourist-Management/assets/69455769/1ead2e95-d354-46cf-b86b-8a4649f0a540)
+![contactus](https://github.com/tejaslakade99/Tourist-Management/assets/69455769/0d26fcd8-e618-4f33-8808-c5d3930d4eb3)
